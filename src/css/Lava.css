@@ -1,0 +1,99 @@
+.or {
+	background: -webkit-linear-gradient(90deg, orange, red);
+}
+
+.oy {
+	background: -webkit-linear-gradient(90deg, orange, yellow);
+}
+
+.ry {
+	background: -webkit-linear-gradient(90deg, red, yellow);
+}
+
+.lava {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 22% 78% 18% 82% / 46% 68% 32% 54%;
+}
+
+.lava-small {
+	width: 50px;
+	height: 40px;
+	animation: lava-vert-right-left 20s infinite;
+}
+
+.lava-medium {
+	width: 200px;
+	height: 200px;
+	animation: lava-vert-left-right 20s infinite;
+}
+
+.lava-horiz {
+	width: 150px;
+	height: 200px;
+	animation: lava-horiz 20s infinite;
+}
+
+@keyframes lava-vert-right-left {
+	25% {
+		top: 70%;
+		left: 60%;
+		border-radius: 64% 36% 51% 49% / 46% 57% 43% 54%;
+	}
+
+	50% {
+		top: 60%;
+		left: 30%;
+		border-radius: 88% 12% 61% 39% / 26% 68% 32% 74%;
+	}
+
+	75% {
+		top: 50%;
+		left: 40%;
+		border-radius: 26% 74% 88% 12% / 9% 82% 18% 91%;
+	}
+}
+
+@keyframes lava-vert-left-right {
+	25% {
+		top: 60%;
+		left: 80%;
+		border-radius: 64% 36% 51% 49% / 46% 57% 43% 54%;
+	}
+
+	50% {
+		top: 40%;
+		left: 70%;
+		border-radius: 88% 12% 61% 39% / 26% 68% 32% 74%;
+	}
+
+	75% {
+		top: 30%;
+		left: 40%;
+		border-radius: 26% 74% 88% 12% / 9% 82% 18% 91%;
+	}
+}
+
+@keyframes lava-horiz {
+	25% {
+		top: 50%;
+		left: 60%;
+		border-radius: 64% 36% 51% 49% / 46% 57% 43% 54%;
+	}
+
+	50% {
+		top: 50%;
+		left: 30%;
+		border-radius: 88% 12% 61% 39% / 26% 68% 32% 74%;
+	}
+
+	75% {
+		top: 50%;
+		left: 40%;
+		border-radius: 26% 74% 88% 12% / 9% 82% 18% 91%;
+	}
+}

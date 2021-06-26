@@ -1,14 +1,17 @@
 import "../css/App.css";
-import TodoList from "./TodoList";
+import Lava from "./Lava";
+import Toggle from "./Toggle";
 
 function App() {
-  const text = "I have a lot to do!";
 
   return (
     <div className="App">
       <header className="App-header">
-        <p className="Title">My To Do List</p>
-        <TodoList text={text} />
+        <h1 className="head">Lava Lamp</h1>
+        <Toggle />
+        <Lava type="lava lava-medium or" />
+        <Lava type="lava lava-small oy" />
+        <Lava type="lava lava-horiz ry" />
       </header>
     </div>
   );

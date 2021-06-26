@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Lava Lamp React Web Application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Created by Isaak Treat and available for open source usage.
 
 ## Available Scripts
 
