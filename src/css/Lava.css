@@ -10,6 +10,7 @@
 	background: -webkit-linear-gradient(90deg, red, yellow);
 }
 
+
 .lava {
 	margin: 0px;
 	padding: 0px;
@@ -22,7 +23,7 @@
 
 .lava-small {
 	width: 50px;
-	height: 40px;
+	height: 50px;
 	animation: lava-vert-right-left 20s infinite;
 }
 
@@ -33,7 +34,7 @@
 }
 
 .lava-horiz {
-	width: 150px;
+	width: 200px;
 	height: 200px;
 	animation: lava-horiz 20s infinite;
 }
@@ -42,7 +43,7 @@
 	25% {
 		top: 70%;
 		left: 60%;
-		border-radius: 64% 36% 51% 49% / 46% 57% 43% 54%;
+		border-radius: 48% 42% 61% 32% / 32% 52% 39% 46%;
 	}
 
 	50% {

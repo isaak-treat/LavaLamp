@@ -12,6 +12,7 @@ function App() {
         <Lava type="lava lava-medium or" />
         <Lava type="lava lava-small oy" />
         <Lava type="lava lava-horiz ry" />
+        <Lava type="lava lava-horiz or" />
       </header>
     </div>
   );
