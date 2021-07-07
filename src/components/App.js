@@ -1,6 +1,7 @@
 import "../css/App.css";
 import Lava from "./Lava";
 import Toggle from "./Toggle";
+import SpotifyPlayer from "./SpotifyPlayer";
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
         <Lava type="lava lava-medium or" />
         <Lava type="lava lava-small oy" />
         <Lava type="lava lava-horiz ry" />
-        <Lava type="lava lava-horiz or" />
+        <SpotifyPlayer />
       </header>
     </div>
   );
